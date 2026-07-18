@@ -1,50 +1,48 @@
-# AWS Static Website Hosting using Amazon S3
+# AWS EC2 Static Website Hosting with Apache
 
-## 📌 Project Overview
+## Project Overview
 
-This project demonstrates how to host a static website using Amazon S3.
+This project demonstrates how to host a static website on an Amazon EC2 instance using the Apache Web Server.
 
-The website was developed locally using HTML and deployed to an Amazon S3 bucket with Static Website Hosting enabled.
+## Services Used
 
----
+- Amazon EC2
+- Apache (httpd)
+- Git
+- GitHub
+- Linux (Amazon Linux 2023)
 
-## 🛠 AWS Services Used
+## Project Architecture
 
-- Amazon S3
+User Browser
+↓
+EC2 Instance
+↓
+Apache Web Server
+↓
+index.html
 
----
+## Project Steps
 
-## 📂 Project Structure
+1. Launch EC2 Instance
+2. Configure Security Group
+3. Connect using EC2 Instance Connect
+4. Install Apache Web Server
+5. Start and Enable Apache
+6. Create Website
+7. Test using Public IP
+8. Install Git
+9. Clone GitHub Repository
+10. Deploy Website
 
-```
-AWS-Static-Website-Hosting
-│
-├── Website
-│   └── index.html
-├── Architecture
-├── Screenshots
-├── Commands
-└── README.md
-```
+## Screenshots
 
----
+- EC2 Instance
+- Apache Running
+- Git Installed
+- GitHub Clone
+- Live Website
 
-## 🚀 Features
-
-- Static Website Hosting
-- Public Website Access
-- Bucket Policy Configuration
-- GitHub Documentation
-- Professional Project Structure
-
----
-
-## 📸 Screenshots
-
-Project screenshots are available in the **Screenshots** folder.
-
----
-
-## 👨‍💻 Author
+## Author
 
 **Surendra Kumrawat**
